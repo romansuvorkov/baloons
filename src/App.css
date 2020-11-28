@@ -1,0 +1,386 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header_menu {
+  display: none;
+}
+
+.mobile_menu_wrapper {
+  display: block;
+  width: 50px;
+  background-color: transparent;
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+.burger_line {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
+
+#check_menu {
+  display: none;
+}
+
+.check_menu_label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  line-height: 40px;
+  text-align: center;
+}
+
+.second, .third {
+  top: 18px;
+}
+
+.fourth {
+  top: 28px;
+}
+
+#check_menu:checked ~ .mobile_menu {
+  max-height: 500px;
+  font-size: 16px;
+}
+
+#check_menu:checked ~ .first {
+  display: none;
+}
+
+#check_menu:checked ~ .second {
+  transform: rotate(45deg);
+}
+
+#check_menu:checked ~ .third {
+  transform: rotate(-45deg);
+}
+
+#check_menu:checked ~ .fourth {
+  display: none;
+}
+
+#check_menu:checked ~ .check_menu_label {
+  color: red;
+}
+
+.mobile_menu_link {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-top: 1px solid rgba(255,255,255,.3);
+  background-color: #000;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 3.5vw;
+}
+
+.mobile_menu {
+  display: block;
+  position: absolute;
+  width: 150px;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%);
+  max-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  transition: .5s all;
+}
+
+.head_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+
+.red_letter {
+ color: red; 
+}
+
+.head_menu::after {
+  content: "";
+  background-color: #000000;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header_menu_list {
+  display: flex;
+  padding: 0;
+}
+
+.header_menu {
+  z-index: 1;
+}
+
+.header_menu_list_point {
+  list-style-type: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+
+
+
+
+
+
+
+/* background-image: url("./img/baloons.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center; */
+
+
+.header_background_baloons {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  /* animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+}
+
+@keyframes slidein {
+  from {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  to {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
+@keyframes confetti {
+  from {
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.header_background_petard {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header_background_confetti {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  animation-duration: 20s;
+  animation-name: confetti;
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate; */
+}
+
+.main_page_header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, #00cafc, #98deea);
+  align-content: flex-start;
+  padding-top: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header_name {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+
+.name_item {
+  display: block;
+  width: 60%;
+  height: 40px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  z-index: 20;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* .name_item:nth-child(2) { */
+  /* margin-left: auto; */
+  /* background-color: #ffffff; */
+  /* z-index: 20; */
+  /* transform: rotate(-10deg); */
+/* } */
+
+.name_item:last-child {
+  /* margin-top: 100px; */
+  /* margin-right: auto; */
+  transform: rotate(-3deg);
+  background-color: #eeeaea;
+  z-index: 10;
+}
+
+/* .header_svg {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: -100px;
+  left: 0;
+  transform: translateX(-95px);
+} */
+
+.main_header {
+  font-size: 18px;
+  margin-top: 60%;
+  z-index: 50;
+  color: #ffffff;
+  width: 90%;
+}
+
+.service_list_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+  background-image: url("./img/back_mob_service_list.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.service_list {
+  width: 100%;
+  height: 65vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.service_list_list_link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  z-index: 2;
+  position: relative;
+}
+
+.service_list_point {
+  list-style-type: none;
+  position: relative;
+  height: 58px;
+  display: block;
+  min-width: 80%;
+  /* border: 2px solid blue; */
+  /* transform: skewX(-30deg); */
+}
+
+.service_list_point::before {
+  content: '';
+  background: linear-gradient(45.9deg, rgba(0, 0, 0, 0.69) 0%, rgba(248, 248, 248, 0) 100%);
+  background-color: #0070C0;
+  height: 58px;
+  width: calc(100% + 45px);
+  position: absolute;
+  left: -30px;
+  top: 0;
+  transform: skewX(-15deg);
+  z-index: 0;
+}
+
+.catalog_wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.catalog_card {
+  display: block;
+  background-color: red;
+  width: 45%;
+  height: 45%;
+}
+
+
+
+
+
+
+
+
+
+.main_footer {
+  display: block;
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-color: #3991e4;
+}
+
+
+
+
+
