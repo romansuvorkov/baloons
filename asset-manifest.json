@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/baloons/static/css/main.9ae18df6.chunk.css",
+    "main.js": "/baloons/static/js/main.f7536b97.chunk.js",
+    "main.js.map": "/baloons/static/js/main.f7536b97.chunk.js.map",
+    "runtime-main.js": "/baloons/static/js/runtime-main.d3c3f2ea.js",
+    "runtime-main.js.map": "/baloons/static/js/runtime-main.d3c3f2ea.js.map",
+    "static/js/2.323a558b.chunk.js": "/baloons/static/js/2.323a558b.chunk.js",
+    "static/js/2.323a558b.chunk.js.map": "/baloons/static/js/2.323a558b.chunk.js.map",
+    "static/js/3.89f65d02.chunk.js": "/baloons/static/js/3.89f65d02.chunk.js",
+    "static/js/3.89f65d02.chunk.js.map": "/baloons/static/js/3.89f65d02.chunk.js.map",
+    "index.html": "/baloons/index.html",
+    "static/css/main.9ae18df6.chunk.css.map": "/baloons/static/css/main.9ae18df6.chunk.css.map",
+    "static/js/2.323a558b.chunk.js.LICENSE.txt": "/baloons/static/js/2.323a558b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/baloons/static/media/back_mob_service_list.65f359d0.jpg",
+    "static/media/baloons.00538b84.png": "/baloons/static/media/baloons.00538b84.png",
+    "static/media/confetti.08ae4097.png": "/baloons/static/media/confetti.08ae4097.png",
+    "static/media/petard1.db23aec8.png": "/baloons/static/media/petard1.db23aec8.png",
+    "static/media/petard2.c1c3e045.png": "/baloons/static/media/petard2.c1c3e045.png",
+    "static/media/petard3.2227652f.png": "/baloons/static/media/petard3.2227652f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3c3f2ea.js",
+    "static/js/2.323a558b.chunk.js",
+    "static/css/main.9ae18df6.chunk.css",
+    "static/js/main.f7536b97.chunk.js"
+  ]
+}
