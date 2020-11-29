@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/baloons/static/css/main.9ae18df6.chunk.css",
-    "main.js": "/baloons/static/js/main.f7536b97.chunk.js",
-    "main.js.map": "/baloons/static/js/main.f7536b97.chunk.js.map",
+    "main.css": "/baloons/static/css/main.c0d18254.chunk.css",
+    "main.js": "/baloons/static/js/main.c2dafacc.chunk.js",
+    "main.js.map": "/baloons/static/js/main.c2dafacc.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.d3c3f2ea.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.d3c3f2ea.js.map",
     "static/js/2.323a558b.chunk.js": "/baloons/static/js/2.323a558b.chunk.js",
@@ -10,19 +10,23 @@
     "static/js/3.89f65d02.chunk.js": "/baloons/static/js/3.89f65d02.chunk.js",
     "static/js/3.89f65d02.chunk.js.map": "/baloons/static/js/3.89f65d02.chunk.js.map",
     "index.html": "/baloons/index.html",
-    "static/css/main.9ae18df6.chunk.css.map": "/baloons/static/css/main.9ae18df6.chunk.css.map",
+    "static/css/main.c0d18254.chunk.css.map": "/baloons/static/css/main.c0d18254.chunk.css.map",
     "static/js/2.323a558b.chunk.js.LICENSE.txt": "/baloons/static/js/2.323a558b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/baloons/static/media/back_mob_service_list.65f359d0.jpg",
+    "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
     "static/media/baloons.00538b84.png": "/baloons/static/media/baloons.00538b84.png",
+    "static/media/birthday.29392c44.jpg": "/baloons/static/media/birthday.29392c44.jpg",
+    "static/media/bouquet.ae3897b2.jpg": "/baloons/static/media/bouquet.ae3897b2.jpg",
+    "static/media/child.0c5f9010.jpg": "/baloons/static/media/child.0c5f9010.jpg",
     "static/media/confetti.08ae4097.png": "/baloons/static/media/confetti.08ae4097.png",
     "static/media/petard1.db23aec8.png": "/baloons/static/media/petard1.db23aec8.png",
     "static/media/petard2.c1c3e045.png": "/baloons/static/media/petard2.c1c3e045.png",
-    "static/media/petard3.2227652f.png": "/baloons/static/media/petard3.2227652f.png"
+    "static/media/petard3.2227652f.png": "/baloons/static/media/petard3.2227652f.png",
+    "static/media/wedding.0b01d3a1.jpg": "/baloons/static/media/wedding.0b01d3a1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3c3f2ea.js",
     "static/js/2.323a558b.chunk.js",
-    "static/css/main.9ae18df6.chunk.css",
-    "static/js/main.f7536b97.chunk.js"
+    "static/css/main.c0d18254.chunk.css",
+    "static/js/main.c2dafacc.chunk.js"
   ]
 }
