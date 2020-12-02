@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/baloons/static/css/main.74fd56b5.chunk.css",
-    "main.js": "/baloons/static/js/main.c20ae5e3.chunk.js",
-    "main.js.map": "/baloons/static/js/main.c20ae5e3.chunk.js.map",
+    "main.css": "/baloons/static/css/main.12354dfc.chunk.css",
+    "main.js": "/baloons/static/js/main.686196ea.chunk.js",
+    "main.js.map": "/baloons/static/js/main.686196ea.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.966fe07d.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.966fe07d.js.map",
     "static/js/2.0ffe4a54.chunk.js": "/baloons/static/js/2.0ffe4a54.chunk.js",
@@ -10,12 +10,21 @@
     "static/js/3.16b492c9.chunk.js": "/baloons/static/js/3.16b492c9.chunk.js",
     "static/js/3.16b492c9.chunk.js.map": "/baloons/static/js/3.16b492c9.chunk.js.map",
     "index.html": "/baloons/index.html",
-    "static/css/main.74fd56b5.chunk.css.map": "/baloons/static/css/main.74fd56b5.chunk.css.map",
+    "static/css/main.12354dfc.chunk.css.map": "/baloons/static/css/main.12354dfc.chunk.css.map",
     "static/js/2.0ffe4a54.chunk.js.LICENSE.txt": "/baloons/static/js/2.0ffe4a54.chunk.js.LICENSE.txt",
     "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
     "static/media/App.css": "/baloons/static/media/vk100.60aca710.jpg",
     "static/media/birthday.29392c44.jpg": "/baloons/static/media/birthday.29392c44.jpg",
     "static/media/bouquet.ae3897b2.jpg": "/baloons/static/media/bouquet.ae3897b2.jpg",
+    "static/media/ch_ex1.cf2d2444.jpg": "/baloons/static/media/ch_ex1.cf2d2444.jpg",
+    "static/media/ch_ex2.16c64b9f.jpg": "/baloons/static/media/ch_ex2.16c64b9f.jpg",
+    "static/media/ch_ex3.4b257730.jpg": "/baloons/static/media/ch_ex3.4b257730.jpg",
+    "static/media/ch_ex4.6accc03f.jpg": "/baloons/static/media/ch_ex4.6accc03f.jpg",
+    "static/media/ch_ex5.1940bc5b.jpg": "/baloons/static/media/ch_ex5.1940bc5b.jpg",
+    "static/media/ch_ex6.69dab40a.jpg": "/baloons/static/media/ch_ex6.69dab40a.jpg",
+    "static/media/ch_ex7.ab23ab8c.jpg": "/baloons/static/media/ch_ex7.ab23ab8c.jpg",
+    "static/media/ch_ex8.48ba3017.jpg": "/baloons/static/media/ch_ex8.48ba3017.jpg",
+    "static/media/ch_ex9.29fcd663.gif": "/baloons/static/media/ch_ex9.29fcd663.gif",
     "static/media/child.0c5f9010.jpg": "/baloons/static/media/child.0c5f9010.jpg",
     "static/media/confetti.08ae4097.png": "/baloons/static/media/confetti.08ae4097.png",
     "static/media/petard1.db23aec8.png": "/baloons/static/media/petard1.db23aec8.png",
@@ -26,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.966fe07d.js",
     "static/js/2.0ffe4a54.chunk.js",
-    "static/css/main.74fd56b5.chunk.css",
-    "static/js/main.c20ae5e3.chunk.js"
+    "static/css/main.12354dfc.chunk.css",
+    "static/js/main.686196ea.chunk.js"
   ]
 }
