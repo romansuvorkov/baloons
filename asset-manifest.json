@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/baloons/static/css/main.673df327.chunk.css",
-    "main.js": "/baloons/static/js/main.2fca68ea.chunk.js",
-    "main.js.map": "/baloons/static/js/main.2fca68ea.chunk.js.map",
-    "runtime-main.js": "/baloons/static/js/runtime-main.85ecfc90.js",
-    "runtime-main.js.map": "/baloons/static/js/runtime-main.85ecfc90.js.map",
-    "static/js/2.7579b777.chunk.js": "/baloons/static/js/2.7579b777.chunk.js",
-    "static/js/2.7579b777.chunk.js.map": "/baloons/static/js/2.7579b777.chunk.js.map",
-    "static/js/3.dffe81fb.chunk.js": "/baloons/static/js/3.dffe81fb.chunk.js",
-    "static/js/3.dffe81fb.chunk.js.map": "/baloons/static/js/3.dffe81fb.chunk.js.map",
+    "main.css": "/baloons/static/css/main.f6899da3.chunk.css",
+    "main.js": "/baloons/static/js/main.9d6d6798.chunk.js",
+    "main.js.map": "/baloons/static/js/main.9d6d6798.chunk.js.map",
+    "runtime-main.js": "/baloons/static/js/runtime-main.22c275cb.js",
+    "runtime-main.js.map": "/baloons/static/js/runtime-main.22c275cb.js.map",
+    "static/js/2.d0301989.chunk.js": "/baloons/static/js/2.d0301989.chunk.js",
+    "static/js/2.d0301989.chunk.js.map": "/baloons/static/js/2.d0301989.chunk.js.map",
+    "static/js/3.99939a44.chunk.js": "/baloons/static/js/3.99939a44.chunk.js",
+    "static/js/3.99939a44.chunk.js.map": "/baloons/static/js/3.99939a44.chunk.js.map",
     "index.html": "/baloons/index.html",
-    "static/css/main.673df327.chunk.css.map": "/baloons/static/css/main.673df327.chunk.css.map",
-    "static/js/2.7579b777.chunk.js.LICENSE.txt": "/baloons/static/js/2.7579b777.chunk.js.LICENSE.txt",
+    "static/css/main.f6899da3.chunk.css.map": "/baloons/static/css/main.f6899da3.chunk.css.map",
+    "static/js/2.d0301989.chunk.js.LICENSE.txt": "/baloons/static/js/2.d0301989.chunk.js.LICENSE.txt",
     "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
     "static/media/App.css": "/baloons/static/media/vk100.60aca710.jpg",
     "static/media/birthday.29392c44.jpg": "/baloons/static/media/birthday.29392c44.jpg",
@@ -52,9 +52,9 @@
     "static/media/wedding6.cbd467ef.JPG": "/baloons/static/media/wedding6.cbd467ef.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.85ecfc90.js",
-    "static/js/2.7579b777.chunk.js",
-    "static/css/main.673df327.chunk.css",
-    "static/js/main.2fca68ea.chunk.js"
+    "static/js/runtime-main.22c275cb.js",
+    "static/js/2.d0301989.chunk.js",
+    "static/css/main.f6899da3.chunk.css",
+    "static/js/main.9d6d6798.chunk.js"
   ]
 }
