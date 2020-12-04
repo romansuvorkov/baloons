@@ -1,14 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
+import wedding from '../img/wedding.jpg';
+import b2b from '../img/b2b.jpg';
+import birthday from '../img/birthday.jpg';
+import child from '../img/child.jpg';
+import bouquet from '../img/bouquet.jpg';
+import { Link } from 'react-router-dom';
 
 function ServicesList() {
+
+  const [activeItem, setActiveItem] = useState(1);
+
+  const handleClick = (numb) => {
+    const newActiveItem = activeItem + numb;
+    if (newActiveItem < 1) {
+      setActiveItem(5);
+    } else if (newActiveItem > 5) {
+      setActiveItem(1);
+    } else {
+      setActiveItem(newActiveItem);
+    }
+  }
+
     return (
       <div className="service_list_wrapper">
-        <span className="service_list_header">Наши услуги</span>
-         <ul className="service_list">
-                <li className="service_list_point"><a className="service_list_list_link" href="#advantage_page">Букеты из шаров</a></li>
-                <li className="service_list_point"><a className="service_list_list_link" href="#portfolio_page">Украшение магазинов</a></li>
-                <li className="service_list_point"><a className="service_list_list_link" href="#price_list_page">Украшение мероприятий</a></li>
-            </ul>
+        <h2 className="service_list_header">Наши услуги</h2>
+        <main className="service_list_slider_wrapper">
+          <div className="service_list_slider">
+            <div className="service_list_img_wrapper">
+            <img className={activeItem === 1 ? "service_list_img appear_img" : "service_list_img"} src={wedding} alt="Фото свадьбы"/>
+            <img className={activeItem === 2 ? "service_list_img appear_img" : "service_list_img"} src={b2b} alt="Фото свадьбы"/>
+            <img className={activeItem === 3 ? "service_list_img appear_img" : "service_list_img"} src={birthday} alt="Фото свадьбы"/>
+            <img className={activeItem === 4 ? "service_list_img appear_img" : "service_list_img"} src={child} alt="Фото свадьбы"/>
+            <img className={activeItem === 5 ? "service_list_img appear_img" : "service_list_img"} src={bouquet} alt="Фото свадьбы"/>
+            </div>
+            <span className="left_arrow slider_navigation" onClick={() => handleClick(-1)}></span>
+            <span className="right_arrow slider_navigation" onClick={() => handleClick(1)}></span>
+          </div>
+          <div className="service_list_info">
+            <span className={activeItem === 1 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Свадьба</span>
+            <span className={activeItem === 2 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Бизнесу</span>
+            <span className={activeItem === 3 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>День рождения</span>
+            <span className={activeItem === 4 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Детские праздники</span>
+            <span className={activeItem === 5 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Букеты из шаров</span>
+            <span className="more_info vertical_text">Подробнее</span>
+            {/* <Link to="/catalog">Свадьба</Link> */}
+          </div>
+          <div className="service_list_text_wrapper">
+            <span className={activeItem === 1 ? "service_list_text appear_left" : "service_list_text"}>Украшение воздушными шарами свадебного зала</span>
+            <span className={activeItem === 2 ? "service_list_text appear_left" : "service_list_text"}>Украшение магазинов при открытии и в честь праздников</span>
+            <span className={activeItem === 3 ? "service_list_text appear_left" : "service_list_text"}>Украшение воздушными шарами залов на день рождения и другие праздники</span>
+            <span className={activeItem === 4 ? "service_list_text appear_left" : "service_list_text"}>Украшение воздушными шарами дестких праздников</span>
+            <span className={activeItem === 5 ? "service_list_text appear_left" : "service_list_text"}>Доставка букетов из шаров</span>
+          </div>
+        </main>
       </div>
     );
   }

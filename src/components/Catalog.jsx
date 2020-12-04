@@ -1,18 +1,22 @@
-import React from 'react';
-// import image from '../img/1900.jpg';
+import React, {useState} from 'react';
+import CatalogCard from './CatalogCard';
+import BigImage from './BigImage';
 
-function Catalog() {
+function Catalog(props) {
+
+  const [activeImage, setActiveImage] = useState('');
+
+    const items = props.itemsData;
     return (
       <div className="catalog_wrapper">
-        <div className="catalog_card">
-          <div className="catalog_img_wrapper">
-            
-          </div>
-          <div className="catalog_card_info">
-            <span className="catalog_card_price"></span>
-            <span className="catalog_card_description"></span>
-          </div>
+        <h2 className="header2">{props.header}</h2>
+        <div className="catalog_list_wrapper">
+          {items.map(o => (
+            <CatalogCard key={o.img} descr={o} setter={setActiveImage}/>
+          ))}
+          <BigImage setter={setActiveImage} img={activeImage} />          
         </div>
+
       </div>
     );
   }

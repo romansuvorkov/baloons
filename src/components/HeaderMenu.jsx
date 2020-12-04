@@ -1,14 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HeaderMenu() {
     return (
         <header className="head_menu">
         <nav className="header_menu">
             <ul className="header_menu_list">
-                <li className="header_menu_list_point"><a className="link" href="#advantage_page">Наши преимущества</a></li>
-                <li className="header_menu_list_point"><a className="link" href="#portfolio_page">Портфолио</a></li>
-                <li className="header_menu_list_point"><a className="link" href="#price_list_page">Цены</a></li>
-                <li className="header_menu_list_point"><a className="link" href="#intsructions_page">Как заказать</a></li>
+                <li className="header_menu_list_point"><Link className="link" to="/wedding">Украшение свадеб</Link></li>
+                <li className="header_menu_list_point"><Link className="link" to="/business">Украшение магазинов</Link></li>
+                <li className="header_menu_list_point"><Link className="link" to="/birthday">День рождения</Link></li>
+                <li className="header_menu_list_point"><Link className="link" to="/child">Детские праздники</Link></li>
+                <li className="header_menu_list_point"><Link className="link" to="/bouqet">Букеты из шаров</Link></li>
             </ul>
         </nav>
         <div className="mobile_menu_wrapper">
@@ -19,11 +21,12 @@ function HeaderMenu() {
         <div className="burger_line third"></div>
         <div className="burger_line fourth"></div>
         <nav className="mobile_menu">
-            <a className="mobile_menu_link link" href="#advantage_page">Наши преимущества</a>
-            <a className="mobile_menu_link link" href="#portfolio_page">Портфолио</a>
-            <a className="mobile_menu_link link" href="#price_list_page">Цены</a>
-            <a className="mobile_menu_link link" href="#intsructions_page">Как заказать</a>
-            </nav>
+            <Link className="mobile_menu_link link" to="/wedding">Украшение свадеб</Link>
+            <Link className="mobile_menu_link link" to="/business">Украшение магазинов</Link>
+            <Link className="mobile_menu_link link" to="/birthday">День рождения</Link>
+            <Link className="mobile_menu_link link" to="/child">Детские праздники</Link>
+            <Link className="mobile_menu_link link" to="/bouqet">Букеты из шаров</Link>
+        </nav>
         </div>
         </header>
     );
