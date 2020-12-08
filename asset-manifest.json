@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/baloons/static/css/main.d89da947.chunk.css",
-    "main.js": "/baloons/static/js/main.5869a186.chunk.js",
-    "main.js.map": "/baloons/static/js/main.5869a186.chunk.js.map",
+    "main.js": "/baloons/static/js/main.63b7ca8d.chunk.js",
+    "main.js.map": "/baloons/static/js/main.63b7ca8d.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.22c275cb.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.22c275cb.js.map",
     "static/js/2.d0301989.chunk.js": "/baloons/static/js/2.d0301989.chunk.js",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.22c275cb.js",
     "static/js/2.d0301989.chunk.js",
     "static/css/main.d89da947.chunk.css",
-    "static/js/main.5869a186.chunk.js"
+    "static/js/main.63b7ca8d.chunk.js"
   ]
 }
