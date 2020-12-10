@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/baloons/static/css/main.de9ce348.chunk.css",
-    "main.js": "/baloons/static/js/main.2f6e3a37.chunk.js",
-    "main.js.map": "/baloons/static/js/main.2f6e3a37.chunk.js.map",
+    "main.js": "/baloons/static/js/main.15e5a3ee.chunk.js",
+    "main.js.map": "/baloons/static/js/main.15e5a3ee.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.22c275cb.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.22c275cb.js.map",
     "static/js/2.d0301989.chunk.js": "/baloons/static/js/2.d0301989.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/2.d0301989.chunk.js.LICENSE.txt": "/baloons/static/js/2.d0301989.chunk.js.LICENSE.txt",
     "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
     "static/media/App.css": "/baloons/static/media/vk100.60aca710.jpg",
-    "static/media/birthday.78fb74f2.jpg": "/baloons/static/media/birthday.78fb74f2.jpg",
+    "static/media/birthday.ba391c95.jpg": "/baloons/static/media/birthday.ba391c95.jpg",
     "static/media/birthday1.7429e4b3.jpg": "/baloons/static/media/birthday1.7429e4b3.jpg",
     "static/media/birthday2.52fbd84b.JPG": "/baloons/static/media/birthday2.52fbd84b.JPG",
     "static/media/birthday3.73d5d851.JPG": "/baloons/static/media/birthday3.73d5d851.JPG",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.22c275cb.js",
     "static/js/2.d0301989.chunk.js",
     "static/css/main.de9ce348.chunk.css",
-    "static/js/main.2f6e3a37.chunk.js"
+    "static/js/main.15e5a3ee.chunk.js"
   ]
 }
