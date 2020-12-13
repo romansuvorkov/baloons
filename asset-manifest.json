@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/baloons/static/css/main.4fbf4ae3.chunk.css",
-    "main.js": "/baloons/static/js/main.15e5a3ee.chunk.js",
-    "main.js.map": "/baloons/static/js/main.15e5a3ee.chunk.js.map",
+    "main.css": "/baloons/static/css/main.47cfb6e8.chunk.css",
+    "main.js": "/baloons/static/js/main.3c74d87d.chunk.js",
+    "main.js.map": "/baloons/static/js/main.3c74d87d.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.22c275cb.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.22c275cb.js.map",
     "static/js/2.d0301989.chunk.js": "/baloons/static/js/2.d0301989.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.99939a44.chunk.js": "/baloons/static/js/3.99939a44.chunk.js",
     "static/js/3.99939a44.chunk.js.map": "/baloons/static/js/3.99939a44.chunk.js.map",
     "index.html": "/baloons/index.html",
-    "static/css/main.4fbf4ae3.chunk.css.map": "/baloons/static/css/main.4fbf4ae3.chunk.css.map",
+    "static/css/main.47cfb6e8.chunk.css.map": "/baloons/static/css/main.47cfb6e8.chunk.css.map",
     "static/js/2.d0301989.chunk.js.LICENSE.txt": "/baloons/static/js/2.d0301989.chunk.js.LICENSE.txt",
     "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
     "static/media/App.css": "/baloons/static/media/vk100.60aca710.jpg",
@@ -44,17 +44,16 @@
     "static/media/petard2.c1c3e045.png": "/baloons/static/media/petard2.c1c3e045.png",
     "static/media/petard3.2227652f.png": "/baloons/static/media/petard3.2227652f.png",
     "static/media/wedding.0b01d3a1.jpg": "/baloons/static/media/wedding.0b01d3a1.jpg",
-    "static/media/wedding1.fe8154b7.jpg": "/baloons/static/media/wedding1.fe8154b7.jpg",
-    "static/media/wedding2.3d2d7f0a.JPG": "/baloons/static/media/wedding2.3d2d7f0a.JPG",
-    "static/media/wedding3.d90a5ced.JPG": "/baloons/static/media/wedding3.d90a5ced.JPG",
-    "static/media/wedding4.48bc2f53.JPG": "/baloons/static/media/wedding4.48bc2f53.JPG",
-    "static/media/wedding5.3019733e.JPG": "/baloons/static/media/wedding5.3019733e.JPG",
-    "static/media/wedding6.cbd467ef.JPG": "/baloons/static/media/wedding6.cbd467ef.JPG"
+    "static/media/wedding1.78a5b505.jpg": "/baloons/static/media/wedding1.78a5b505.jpg",
+    "static/media/wedding2.703f96e5.jpg": "/baloons/static/media/wedding2.703f96e5.jpg",
+    "static/media/wedding3.5e5e7a6e.jpg": "/baloons/static/media/wedding3.5e5e7a6e.jpg",
+    "static/media/wedding4.d0df7a3a.jpg": "/baloons/static/media/wedding4.d0df7a3a.jpg",
+    "static/media/wedding5.e9232812.jpg": "/baloons/static/media/wedding5.e9232812.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.22c275cb.js",
     "static/js/2.d0301989.chunk.js",
-    "static/css/main.4fbf4ae3.chunk.css",
-    "static/js/main.15e5a3ee.chunk.js"
+    "static/css/main.47cfb6e8.chunk.css",
+    "static/js/main.3c74d87d.chunk.js"
   ]
 }
