@@ -4,16 +4,12 @@ import child3 from '../img/ch_ex3.jpg';
 import child4 from '../img/ch_ex4.jpg';
 import child5 from '../img/ch_ex5.jpg';
 import child6 from '../img/ch_ex6.jpg';
-import child7 from '../img/ch_ex7.jpg';
-import child8 from '../img/ch_ex8.jpg';
-import child9 from '../img/ch_ex9.gif';
 
 import wedding1 from '../img/wedding1.jpg';
-import wedding2 from '../img/wedding2.JPG';
-import wedding3 from '../img/wedding3.JPG';
-import wedding4 from '../img/wedding4.JPG';
-import wedding5 from '../img/wedding5.JPG';
-import wedding6 from '../img/wedding6.JPG';
+import wedding2 from '../img/wedding2.jpg';
+import wedding3 from '../img/wedding3.jpg';
+import wedding4 from '../img/wedding4.jpg';
+import wedding5 from '../img/wedding5.jpg';
 
 import business1 from '../img/business1.jpg';
 import business2 from '../img/business2.jpg';
@@ -21,9 +17,10 @@ import business3 from '../img/business3.jpg';
 import business4 from '../img/business4.jpg';
 
 import birthday1 from '../img/birthday1.jpg';
-import birthday2 from '../img/birthday2.JPG';
-import birthday3 from '../img/birthday3.JPG';
+import birthday2 from '../img/birthday2.jpg';
+import birthday3 from '../img/birthday3.jpg';
 import birthday4 from '../img/birthday4.jpg';
+import birthday5 from '../img/birthday5.jpg';
 
 import bouqet1 from '../img/bouqet1.jpg';
 import bouqet2 from '../img/bouqet2.jpg';
@@ -62,21 +59,6 @@ const itemsData = {child: [
       img: child6,
       price: 120033,
       description: 'Тестовое описание'
-    },
-    {
-      img: child7,
-      price: 5200,
-      description: 'Тестовое описание'
-    },
-    {
-      img: child8,
-      price: 1230,
-      description: 'Тестовое описание'
-    },
-    {
-      img: child9,
-      price: 12030,
-      description: 'Тестовое описание'
     }],
 
     wedding: [
@@ -103,11 +85,6 @@ const itemsData = {child: [
     {
       img: wedding5,
       price: 12002,
-      description: 'Тестовое описание'
-    },
-    {
-      img: wedding6,
-      price: 120033,
       description: 'Тестовое описание'
     }],
 
@@ -153,6 +130,11 @@ const itemsData = {child: [
       img: birthday4,
       price: 12040,
       description: 'Тестовое описание'
+    },
+    {
+      img: birthday5,
+      price: 1200,
+      description: 'Тестовое описание123'
     }], 
 
     bouqet: [

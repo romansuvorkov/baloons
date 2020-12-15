@@ -9,7 +9,7 @@ function Catalog(props) {
     const items = props.itemsData;
     return (
       <div className="catalog_wrapper">
-        <h2 className="header2">{props.header}</h2>
+        <h2 className="header2" id="catalog_start">{props.header}</h2>
         <div className="catalog_list_wrapper">
           {items.map(o => (
             <CatalogCard key={o.img} descr={o} setter={setActiveImage}/>

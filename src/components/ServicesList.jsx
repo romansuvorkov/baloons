@@ -4,7 +4,7 @@ import b2b from '../img/b2b.jpg';
 import birthday from '../img/birthday.jpg';
 import child from '../img/child.jpg';
 import bouquet from '../img/bouquet.jpg';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function ServicesList() {
 
@@ -43,7 +43,11 @@ function ServicesList() {
             <span className={activeItem === 4 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Детские праздники</span>
             <span className={activeItem === 5 ? "service_list_item_name vertical_text appear_top" : "service_list_item_name vertical_text"}>Букеты из шаров</span>
             <span className="more_info vertical_text">Подробнее</span>
-            {/* <Link to="/catalog">Свадьба</Link> */}
+            {activeItem === 1 && <Link className="service_list_link" to="/wedding#catalog_start"></Link>}
+            {activeItem === 2 && <Link className="service_list_link" to="/business#catalog_start"></Link>}
+            {activeItem === 3 && <Link className="service_list_link" to="/birthday#catalog_start"></Link>}
+            {activeItem === 4 && <Link className="service_list_link" to="/child#catalog_start"></Link>}
+            {activeItem === 5 && <Link className="service_list_link" to="/bouqet#catalog_start"></Link>}
           </div>
           <div className="service_list_text_wrapper">
             <span className={activeItem === 1 ? "service_list_text appear_left" : "service_list_text"}>Украшение воздушными шарами свадебного зала</span>

@@ -1,9 +1,6 @@
 import React from 'react';
 import baloons from '../img/baloons.png';
 import confetti from '../img/confetti.png';
-import petard1 from '../img/petard1.png';
-import petard2 from '../img/petard2.png';
-import petard3 from '../img/petard3.png';
 
 function Header() {
     return (

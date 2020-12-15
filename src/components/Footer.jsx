@@ -11,7 +11,7 @@ function Footer() {
           <a name="test"></a>
           <div className="footer_social">
                 <ul className="socials">
-                  <li className="socials_item"><a href="https://twitter.com/e8LSlX7bkFXgbA5" target="_blank" className="socials_link socials_link_twitter"><span className="social_link_text">twitter</span></a></li>
+                  <li className="socials_item"><a href="https://wa.me/79521381601?text=Тестовый+текст" target="_blank" className="socials_link socials_link_twitter"><span className="social_link_text">twitter</span></a></li>
                   <li className="socials_item"><a href="https://ok.ru/profile/570837118023/statuses" target="_blank" className="socials_link socials_link_ok"><span className="social_link_text">Одноклассники</span></a></li>
                   <li className="socials_item"><a href="https://vk.com/uralgraf395355" target="_blank" className="socials_link socials_link_vk"><span className="social_link_text">Вконтакте</span></a></li>
                   <li className="socials_item"><a href="https://www.instagram.com/uralgraf.ru/" target="_blank" className="socials_link socials_link_instagram"><span className="social_link_text">instagram</span></a></li>
