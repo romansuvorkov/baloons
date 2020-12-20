@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/baloons/static/css/main.a3101b85.chunk.css",
-    "main.js": "/baloons/static/js/main.fe266bf2.chunk.js",
-    "main.js.map": "/baloons/static/js/main.fe266bf2.chunk.js.map",
+    "main.css": "/baloons/static/css/main.45861216.chunk.css",
+    "main.js": "/baloons/static/js/main.9a6659d1.chunk.js",
+    "main.js.map": "/baloons/static/js/main.9a6659d1.chunk.js.map",
     "runtime-main.js": "/baloons/static/js/runtime-main.22c275cb.js",
     "runtime-main.js.map": "/baloons/static/js/runtime-main.22c275cb.js.map",
     "static/js/2.d0301989.chunk.js": "/baloons/static/js/2.d0301989.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.99939a44.chunk.js": "/baloons/static/js/3.99939a44.chunk.js",
     "static/js/3.99939a44.chunk.js.map": "/baloons/static/js/3.99939a44.chunk.js.map",
     "index.html": "/baloons/index.html",
-    "static/css/main.a3101b85.chunk.css.map": "/baloons/static/css/main.a3101b85.chunk.css.map",
+    "static/css/main.45861216.chunk.css.map": "/baloons/static/css/main.45861216.chunk.css.map",
     "static/js/2.d0301989.chunk.js.LICENSE.txt": "/baloons/static/js/2.d0301989.chunk.js.LICENSE.txt",
     "static/media/b2b.c3b6d942.jpg": "/baloons/static/media/b2b.c3b6d942.jpg",
-    "static/media/App.css": "/baloons/static/media/vk100.60aca710.jpg",
+    "static/media/App.css": "/baloons/static/media/vk200.fb3855ec.jpg",
     "static/media/birthday.ba391c95.jpg": "/baloons/static/media/birthday.ba391c95.jpg",
     "static/media/birthday1.3464bda0.jpg": "/baloons/static/media/birthday1.3464bda0.jpg",
     "static/media/birthday2.f5f904e8.JPG": "/baloons/static/media/birthday2.f5f904e8.JPG",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.22c275cb.js",
     "static/js/2.d0301989.chunk.js",
-    "static/css/main.a3101b85.chunk.css",
-    "static/js/main.fe266bf2.chunk.js"
+    "static/css/main.45861216.chunk.css",
+    "static/js/main.9a6659d1.chunk.js"
   ]
 }
